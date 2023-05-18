@@ -1,0 +1,75 @@
+.banner {
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.container h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container .about-us {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.container .about-us .about-us-image {
+	flex: 0 0 40%;
+	margin-right: 20px;
+}
+
+.container .about-us .about-us-text {
+	flex: 0 0 60%;
+}
+
+.container .about-us .about-us-image img {
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+.container .about-us .about-us-text h2 {
+	margin-top: 0;
+}
+
+.container .about-us .about-us-text p {
+	margin-bottom: 20px;
+}
+
+.container .cards {
+	display: flex;
+	justify-content: center;
+}
+
+.container .card {
+	flex: 0 0 calc(33.33% - 20px);
+	margin: 0 10px;
+}
+
+.container .card:first-child {
+	margin-left: 0;
+}
+
+.container .card:last-child {
+	margin-right: 0;
+}
+
+.container .card img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.container .card h3 {
+	margin-top: 10px;
+	text-align: center;
+}
